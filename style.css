@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(248, 248, 245);
+}
+
+nav {
+    background-color: #1F2937;
+}
+
+nav a {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+header h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.section1 {
+    background-color: #fff;
+}
+
+.section1 h3 {
+    font-weight: 700;
+}
+
+.section2 {
+    background-color: #e5e7eb;
+}
+
+.section2 blockquote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.section2 cite {
+    font-weight: 700;
+}
+
+.section3 {
+    background-color: #3882f6;
+}
+
+.section3 h3 {
+    color:#f9faf8;
+}
+
+.section3 p {
+    color: #f9faf8;
+    font-size: 12px;
+}
+
+.section3 button { /* Have to figure it out */
+    border-style: solid;
+    border-width: 2px;
+    border: #f9faf8;
+}
+
+footer {
+    background-color: #1F2937;
+    color:#e5e7eb;
+}

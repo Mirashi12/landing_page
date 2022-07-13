@@ -58,6 +58,22 @@ button {
     color: #f9faf8;
 }
 
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px;
+}
+
+header .container .right img {
+    height: 300px;
+    padding-right: 120px;
+}
+
+header .container .left {
+    padding-left: 120px;
+}
+
 .section1 {
     background-color: #fff;
 }

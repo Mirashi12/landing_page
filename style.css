@@ -79,7 +79,31 @@ header .container .left {
 }
 
 .section1 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
     font-weight: 700;
+}
+
+.section1 .container .items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1 img {
+    flex: auto;
+    max-width: 100%;
+    padding: 0 50px;
+    margin-top: 25px;
+}
+
+.items div p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 50px;
+    color: #000000;
 }
 
 .section2 {
